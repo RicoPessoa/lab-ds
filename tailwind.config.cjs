@@ -10,22 +10,32 @@ module.exports = {
       md: 18,
       lg: 20,
       xl: 24,
-      '2xl': 32
+      '2xl': 32,
     },
-    colors: {
-      'gray-900': '#121214',
-      'gray-800': '#202024',
-      'gray-400': '#7C7C8A',
-      'gray-200': '#C4C4CC',
-      'gray-100': '#E1E1E6',
 
-      'cyan-500': '#81D8F7',
-      'cyan-500': '#9FDEF4'
+    colors: {
+      transparent: 'transparent',
+
+      black: '#000',
+      white: '#FFF',
+
+      gray: {
+        900: '#121214',
+        800: '#202024',
+        400: '#7c7c8a',
+        200: '#c4c4cc',
+        100: '#e1e1e6',
+      },
+
+      cyan: {
+        500: '#81d8f7',
+        300: '#9BE1FB'
+      },
     },
     extend: {
       fontFamily: {
         sans: 'Inter, sans-serif'
-      }
+      },
     },
   },
   plugins: [],
